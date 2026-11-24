@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Информационные ресурсы — Технология мобильного обучения</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container nav-wrap">
+      <a href="index.html" class="logo">M-Learning</a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="tasks.html">Вопросы и задания</a></li>
+        <li><a href="resources.html" class="active">Информационные ресурсы</a></li>
+        <li><a href="examples.html">Примеры использования</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="icon-btn" id="themeBtn">🌙 Темная</button>
+        <button class="icon-btn burger" id="burgerBtn">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <span class="hero-badge">Библиотека и сервисы</span>
+      <h1>Информационные ресурсы по теме</h1>
+      <p>Литература, международные рекомендации и цифровые сервисы для проектирования мобильного обучения.</p>
+    </div>
+  </section>
+
+  <main class="container">
+    <section class="section card">
+      <div class="filter-bar">
+        <button class="filter-btn active" data-filter="all">Все ресурсы</button>
+        <button class="filter-btn" data-filter="books">Книги и статьи</button>
+        <button class="filter-btn" data-filter="docs">Документы</button>
+        <button class="filter-btn" data-filter="tools">Платформы и сервисы</button>
+      </div>
+
+      <div class="grid-2">
+        <article class="info-box" data-category="books">
+          <span class="tag">Монография</span>
+          <h3>Куклев В. А. «Становление системы мобильного обучения в открытом дистанционном образовании»</h3>
+          <p>Фундаментальная работа о дидактических принципах, моделях и методике мобильного обучения в вузе.</p>
+        </article>
+
+        <article class="info-box" data-category="books">
+          <span class="tag">Учебное пособие</span>
+          <h3>Титова С. В., Авраменко А. П. «Мобильное обучение иностранным языкам»</h3>
+          <p>Классификация мобильных приложений, методические сценарии и приемы организации работы со смартфонами.</p>
+        </article>
+
+        <article class="info-box" data-category="docs">
+          <span class="tag">Документ ЮНЕСКО</span>
+          <h3>Рекомендации ЮНЕСКО по политике в области мобильного обучения</h3>
+          <p>Международное руководство по внедрению m-learning, обеспечению равного доступа и безопасности данных.</p>
+        </article>
+
+        <article class="info-box" data-category="books">
+          <span class="tag">Исследование</span>
+          <h3>Sharples M., Taylor J., Vavoula G. «A Theory of Learning for the Mobile Age»</h3>
+          <p>Теоретическая модель мобильного обучения как непрерывного взаимодействия человека, контекста и технологий.</p>
+        </article>
+
+        <article class="info-box" data-category="tools">
+          <span class="tag">Сервис</span>
+          <h3>Kahoot! и Quizizz</h3>
+          <p>Платформы для проведения интерактивных викторин, опросов и домашних заданий на смартфонах учащихся.</p>
+        </article>
+
+        <article class="info-box" data-category="tools">
+          <span class="tag">Сервис</span>
+          <h3>Quizlet и Anki</h3>
+          <p>Мобильные приложения с интервальным повторением и интерактивными карточками для запоминания понятий.</p>
+        </article>
+
+        <article class="info-box" data-category="tools">
+          <span class="tag">Платформа</span>
+          <h3>Stepik / Российская электронная школа</h3>
+          <p>Платформы с адаптивными мобильными интерфейсами и приложениями для прохождения интерактивных уроков.</p>
+        </article>
+
+        <article class="info-box" data-category="tools">
+          <span class="tag">Сервис</span>
+          <h3>LearningApps и Padlet</h3>
+          <p>Инструменты для создания мини-упражнений и совместных мобильных досок с доступом по QR-коду.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <button id="toTopBtn" class="btn">↑ Наверх</button>
+
+  <footer class="footer">
+    <div class="container footer-flex">
+      <span>© 2025 Веб-ресурс «Технология мобильного обучения»</span>
+      <a href="index.html" class="btn btn-outline">← На главную</a>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

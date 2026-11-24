@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Вопросы и задания — Технология мобильного обучения</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container nav-wrap">
+      <a href="index.html" class="logo">M-Learning</a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="tasks.html" class="active">Вопросы и задания</a></li>
+        <li><a href="resources.html">Информационные ресурсы</a></li>
+        <li><a href="examples.html">Примеры использования</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="icon-btn" id="themeBtn">🌙 Темная</button>
+        <button class="icon-btn burger" id="burgerBtn">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <span class="hero-badge">Самоконтроль и диагностика</span>
+      <h1>Вопросы и задания</h1>
+      <p>Разноуровневые вопросы для самопроверки с отслеживанием прогресса и итоговый контрольный тест по теме.</p>
+    </div>
+  </section>
+
+  <main class="container">
+    <section class="section card" id="questions">
+      <h2 class="section-title">Вопросы для самоконтроля и самооценки</h2>
+      <p style="margin-bottom:18px; color:var(--text-muted);">
+        Ответьте на вопросы устно или письменно, затем раскройте ориентир для сверки и отметьте освоенные вопросы.
+      </p>
+
+      <div class="question-group">
+        <h3 class="question-group-title">Репродуктивные вопросы (знание фактов и понятий)</h3>
+
+        <div class="accordion-item">
+          <button class="accordion-btn">
+            <span>Кто предложил в 1970-х годах концепцию портативного компьютера Dynabook, ставшего прообразом устройств мобильного обучения?</span>
+            <span class="acc-sign">+</span>
+          </button>
+          <div class="accordion-panel">
+            <p><strong>Эталонный ответ:</strong> Концепцию персонального портативного компьютера для обучения <em>Dynabook</em> предложил американский ученый в области информатики <strong>Алан Кей (Alan Kay)</strong>.</p>
+            <label class="self-check"><input type="checkbox" class="self-assess-cb" /> Вопрос освоен</label>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-btn">
+            <span>В каком году ЮНЕСКО опубликовала официальные «Рекомендации по политике в области мобильного обучения»?</span>
+            <span class="acc-sign">+</span>
+          </button>
+          <div class="accordion-panel">
+            <p><strong>Эталонный ответ:</strong> Документ был опубликован ЮНЕСКО в <strong>2013 году</strong> (<em>UNESCO Policy Guidelines for Mobile Learning</em>).</p>
+            <label class="self-check"><input type="checkbox" class="self-assess-cb" /> Вопрос освоен</label>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-btn">
+            <span>Как называется концепция организации обучения, при которой обучающиеся используют на занятиях собственные смартфоны и планшеты?</span>
+            <span class="acc-sign">+</span>
+          </button>
+          <div class="accordion-panel">
+            <p><strong>Эталонный ответ:</strong> Такая модель называется <strong>BYOD</strong> (<em>Bring Your Own Device</em> — «принеси своё устройство»).</p>
+            <label class="self-check"><input type="checkbox" class="self-assess-cb" /> Вопрос освоен</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="question-group">
+        <h3 class="question-group-title">Продуктивные вопросы (анализ, сравнение, обобщение)</h3>
+
+        <div class="accordion-item">
+          <button class="accordion-btn">
+            <span>Сравните классическое электронное обучение (e-learning) и мобильное обучение (m-learning): в чём их сходства и принципиальные отличия?</span>
+            <span class="acc-sign">+</span>
+          </button>
+          <div class="accordion-panel">
+            <p><strong>Ориентир для самопроверки:</strong> Сходство — использование цифровых технологий, интерактивность и доступ к электронным ресурсам. Отличия — m-learning ориентировано на портативность, обучение «на ходу», короткие сессии, контекстность (камера, GPS, QR-коды) и спонтанность доступа, тогда как классический e-learning чаще привязан к стационарному рабочему месту.</p>
+            <label class="self-check"><input type="checkbox" class="self-assess-cb" /> Вопрос освоен</label>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-btn">
+            <span>Каким образом взаимосвязаны технология мобильного обучения и формат микрообучения (microlearning)?</span>
+            <span class="acc-sign">+</span>
+          </button>
+          <div class="accordion-panel">
+            <p><strong>Ориентир для самопроверки:</strong> Небольшой экран смартфона и условия использования (дорога, перерыв) ограничивают время непрерывной концентрации. Поэтому мобильный контент структурируется в виде микроуроков по 5–10 минут — одна завершенная микротема и быстрая проверка.</p>
+            <label class="self-check"><input type="checkbox" class="self-assess-cb" /> Вопрос освоен</label>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-btn">
+            <span>Какой можно сделать вывод о роли искусственного интеллекта в развитии современного мобильного обучения?</span>
+            <span class="acc-sign">+</span>
+          </button>
+          <div class="accordion-panel">
+            <p><strong>Ориентир для самопроверки:</strong> ИИ превращает мобильное устройство из пассивного хранилища файлов в персонального адаптивного тьютора (чат-боты 24/7, распознавание речи, генерация заданий под уровень ученика и ранняя аналитика трудностей).</p>
+            <label class="self-check"><input type="checkbox" class="self-assess-cb" /> Вопрос освоен</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="question-group">
+        <h3 class="question-group-title">Творческо-исследовательское задание</h3>
+
+        <div class="accordion-item">
+          <button class="accordion-btn">
+            <span>Разработайте модель 10-минутного мобильного микроурока по выбранной предметной теме с использованием смартфона и одного ИИ-сервиса. Что необходимо учесть для его успешного внедрения?</span>
+            <span class="acc-sign">+</span>
+          </button>
+          <div class="accordion-panel">
+            <p><strong>Критерии для самооценки проекта:</strong></p>
+            <ul class="styled" style="margin:8px 0;">
+              <li>Сформулирована конкретная учебная цель и возрастная аудитория.</li>
+              <li>Выдержан тайминг (~2 мин мотивация/QR-вход, ~4 мин микроконтент, ~3 мин интерактивная практика/ИИ-диалог, ~1 мин рефлексия).</li>
+              <li>Учтены эргономические и технические требования (адаптивность под экран, альтернатива при отсутствии гаджета, защита от отвлечения).</li>
+            </ul>
+            <label class="self-check"><input type="checkbox" class="self-assess-cb" /> Модель разработана</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="self-assess-summary" id="selfAssessBox">
+        <div>
+          <strong>Ваш прогресс самооценки:</strong> освоено <span id="selfAssessCount">0</span> из 7 вопросов
+          (<span id="selfAssessPercent">0%</span>) — <span id="selfAssessLevel">отметьте выполненные вопросы выше</span>.
+        </div>
+        <div class="progress-track">
+          <div class="progress-fill" id="selfAssessBar"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section card" id="interactive">
+      <h2 class="section-title">Итоговый контрольный тест</h2>
+
+      <div class="test-passport grid-2">
+        <div class="info-box">
+          <h3>О тесте и его назначении</h3>
+          <p><strong>Название:</strong> «Технология мобильного обучения: от теории к педагогической практике».</p>
+          <p style="margin-top:8px;"><strong>Назначение:</strong> итоговый контроль и диагностика уровня усвоения теории, методики и практики применения технологии мобильного обучения (включая интеграцию с ИИ).</p>
+        </div>
+
+        <div class="info-box">
+          <h3>Инструкция по выполнению</h3>
+          <p>Перед вами 7 разноуровневых заданий (рекомендуемое время выполнения — 10 минут).</p>
+          <ul class="styled" style="margin-top:8px;">
+            <li>Выполните задания по порядку: выберите ответы, заполните пропуск, установите соответствия и последовательность.</li>
+            <li>В заключительном задании опишите краткий сценарий микроурока и отметьте соблюденные критерии.</li>
+            <li>По завершении нажмите кнопку «Завершить тест и получить оценку».</li>
+          </ul>
+        </div>
+      </div>
+
+      <div style="margin-top:22px;">
+        <h3 style="margin-bottom:12px;">Спецификация тестовых заданий</h3>
+        <div class="table-wrap">
+          <table class="spec-table">
+            <thead>
+              <tr>
+                <th>№</th>
+                <th>Проверяемый элемент содержания</th>
+                <th>Тип задания</th>
+                <th>Сложность</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Определение концепции организации обучения с использованием личных смартфонов и планшетов.</td>
+                <td>Выбор одного ответа</td>
+                <td>Базовая</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Определение коротких 5–10-минутных учебных модулей для мобильных устройств.</td>
+                <td>Заполнение пропуска</td>
+                <td>Базовая</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Характерные особенности и дидактические преимущества мобильного обучения.</td>
+                <td>Множественный выбор</td>
+                <td>Средняя</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Соответствие между учебной задачей педагога и профильным мобильным инструментом/ИИ-сервисом.</td>
+                <td>Установление соответствия</td>
+                <td>Средняя</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>Логическая последовательность этапов реализации технологии мобильного обучения.</td>
+                <td>Установление последовательности</td>
+                <td>Средняя</td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td>Анализ проблемной педагогической ситуации на занятии и выбор оптимального решения.</td>
+                <td>Кейс-задание</td>
+                <td>Высокая</td>
+              </tr>
+              <tr>
+                <td>7</td>
+                <td>Проектирование фрагмента мобильного микроурока с интеграцией ИИ и учетом рисков.</td>
+                <td>Исследовательское задание</td>
+                <td>Высокая</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="info-box" style="margin-top:20px;">
+        <h3>Критерии оценивания</h3>
+        <div class="grid-2" style="margin-top:10px;">
+          <ul class="styled">
+            <li><strong>Вопросы 1 и 2:</strong> по <strong>1 баллу</strong> за верный ответ.</li>
+            <li><strong>Вопрос 3:</strong> <strong>2 балла</strong> — выбраны все 3 верных варианта без лишних; <strong>1 балл</strong> — 2 верных без ошибок.</li>
+            <li><strong>Вопросы 4 и 5:</strong> <strong>2 балла</strong> — все позиции верны; <strong>1 балл</strong> — допущена 1 ошибка.</li>
+            <li><strong>Вопрос 6:</strong> <strong>3 балла</strong> за выбор оптимальной педагогической стратегии.</li>
+            <li><strong>Вопрос 7:</strong> до <strong>4 баллов</strong> (по 1 баллу за цель, мобильный сервис, ИИ-функцию и учет рисков).</li>
+          </ul>
+          <div>
+            <p><strong>Шкала перевода (максимум 15 баллов):</strong></p>
+            <ul class="styled" style="margin-top:8px;">
+              <li><strong>13–15 баллов (85–100%)</strong> — «Отлично»</li>
+              <li><strong>10–12 баллов (65–84%)</strong> — «Хорошо»</li>
+              <li><strong>7–9 баллов (45–64%)</strong> — «Удовлетворительно»</li>
+              <li><strong>0–6 баллов (&lt; 45%)</strong> — рекомендуется повторить материал</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="timer-bar">
+        <div>
+          <strong>Время на тест:</strong> <span id="testTimer">10:00</span>
+        </div>
+        <div style="display:flex; gap:10px; flex-wrap:wrap;">
+          <button type="button" class="btn btn-outline" id="startTimerBtn">▶ Запустить таймер (10 мин)</button>
+          <button type="button" class="btn btn-outline" id="resetTestBtn">↺ Сбросить тест</button>
+        </div>
+      </div>
+
+      <form id="finalTestForm">
+        <div class="quiz-question">
+          <div class="q-head">
+            <strong>Вопрос 1</strong>
+            <span class="q-meta">Один выбор · 1 балл</span>
+          </div>
+          <p>Какая концепция организации учебного процесса предполагает использование обучающимися собственных смартфонов и планшетов на занятии?</p>
+          <div class="quiz-options">
+            <label><input type="radio" name="ft1" value="a" /> MOOC (Массовые открытые онлайн-курсы)</label>
+            <label><input type="radio" name="ft1" value="b" /> BYOD (Bring Your Own Device)</label>
+            <label><input type="radio" name="ft1" value="c" /> SCORM (Стандарт дистанционных курсов)</label>
+            <label><input type="radio" name="ft1" value="d" /> ERP (Система планирования ресурсов)</label>
+          </div>
+          <div class="q-feedback" id="fb1"></div>
+        </div>
+
+        <div class="quiz-question">
+          <div class="q-head">
+            <strong>Вопрос 2</strong>
+            <span class="q-meta">Заполнение пропуска · 1 балл</span>
+          </div>
+          <p>Вставьте пропущенный термин (существительное в именительном падеже):<br>
+            «Формат обучения, при котором материал делится на короткие модули длительностью 5–10 минут для удобного изучения со смартфона, называется <strong>________</strong>».
+          </p>
+          <input type="text" id="ft2" class="text-input" placeholder="Введите термин..." />
+          <div class="q-feedback" id="fb2"></div>
+        </div>
+
+        <div class="quiz-question">
+          <div class="q-head">
+            <strong>Вопрос 3</strong>
+            <span class="q-meta">Множественный выбор · 2 балла</span>
+          </div>
+          <p>Выберите <strong>три</strong> характерные особенности и преимущества технологии мобильного обучения:</p>
+          <div class="quiz-options">
+            <label><input type="checkbox" name="ft3" value="a" /> Контекстность обучения (использование камеры, GPS, QR-кодов на местности)</label>
+            <label><input type="checkbox" name="ft3" value="b" /> Строгая привязка занятия исключительно к стационарному компьютерному классу</label>
+            <label><input type="checkbox" name="ft3" value="c" /> Непрерывная доступность учебных материалов в любое время и месте</label>
+            <label><input type="checkbox" name="ft3" value="d" /> Оперативная обратная связь и быстрый экспресс-контроль знаний</label>
+            <label><input type="checkbox" name="ft3" value="e" /> Отсутствие необходимости учитывать эргономику и нормы экранного времени</label>
+          </div>
+          <div class="q-feedback" id="fb3"></div>
+        </div>
+
+        <div class="quiz-question">
+          <div class="q-head">
+            <strong>Вопрос 4</strong>
+            <span class="q-meta">Установление соответствия · 2 балла</span>
+          </div>
+          <p>Сопоставьте учебную задачу педагога и наиболее подходящий мобильный инструмент:</p>
+          <div class="match-list">
+            <div class="match-row">
+              <span>Проведение быстрой игровой викторины в классе в реальном времени</span>
+              <select id="ft4a" class="select-input">
+                <option value="">— Выберите —</option>
+                <option value="kahoot">Kahoot! / Quizizz</option>
+                <option value="quizlet">Quizlet / Anki</option>
+                <option value="ai">Голосовой ИИ-тьютор</option>
+              </select>
+            </div>
+            <div class="match-row">
+              <span>Интервальное заучивание терминов с помощью флеш-карточек в дороге</span>
+              <select id="ft4b" class="select-input">
+                <option value="">— Выберите —</option>
+                <option value="kahoot">Kahoot! / Quizizz</option>
+                <option value="quizlet">Quizlet / Anki</option>
+                <option value="ai">Голосовой ИИ-тьютор</option>
+              </select>
+            </div>
+            <div class="match-row">
+              <span>Индивидуальная тренировка диалога и произношения на иностранном языке 24/7</span>
+              <select id="ft4c" class="select-input">
+                <option value="">— Выберите —</option>
+                <option value="kahoot">Kahoot! / Quizizz</option>
+                <option value="quizlet">Quizlet / Anki</option>
+                <option value="ai">Голосовой ИИ-тьютор</option>
+              </select>
+            </div>
+          </div>
+          <div class="q-feedback" id="fb4"></div>
+        </div>
+
+        <div class="quiz-question">
+          <div class="q-head">
+            <strong>Вопрос 5</strong>
+            <span class="q-meta">Последовательность · 2 балла</span>
+          </div>
+          <p>Укажите правильный порядок этапов реализации технологии мобильного обучения (от 1 до 4):</p>
+          <div class="match-list">
+            <div class="match-row">
+              <span>Деятельностный этап (выполнение микроуроков, QR-квестов, опросов)</span>
+              <select id="ft5_3" class="select-input">
+                <option value="">— Номер —</option>
+                <option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option>
+              </select>
+            </div>
+            <div class="match-row">
+              <span>Диагностико-проектировочный этап (анализ готовности, выбор сервисов, адаптация контента)</span>
+              <select id="ft5_1" class="select-input">
+                <option value="">— Номер —</option>
+                <option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option>
+              </select>
+            </div>
+            <div class="match-row">
+              <span>Контрольно-оценочный и рефлексивный этап (анализ статистики и корректировка)</span>
+              <select id="ft5_4" class="select-input">
+                <option value="">— Номер —</option>
+                <option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option>
+              </select>
+            </div>
+            <div class="match-row">
+              <span>Мотивационно-инструктивный этап (инструктаж по приложениям и цифровой гигиене)</span>
+              <select id="ft5_2" class="select-input">
+                <option value="">— Номер —</option>
+                <option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option>
+              </select>
+            </div>
+          </div>
+          <div class="q-feedback" id="fb5"></div>
+        </div>
+
+        <div class="quiz-question">
+          <div class="q-head">
+            <strong>Вопрос 6</strong>
+            <span class="q-meta">Проблемный кейс · 3 балла</span>
+          </div>
+          <p>
+            <strong>Ситуация:</strong> На практическом занятии с применением смартфонов (BYOD) часть обучающихся начала отвлекаться на уведомления в мессенджерах, а у двух студентов разрядились телефоны. Какое педагогическое решение является наиболее эффективным?
+          </p>
+          <div class="quiz-options">
+            <label><input type="radio" name="ft6" value="a" /> Немедленно запретить смартфоны до конца семестра и вернуться только к бумажным раздаткам.</label>
+            <label><input type="radio" name="ft6" value="b" /> Задать короткий тайминг (5–7 минут на задание), перевести работу в пары (1 устройство на пару) и предварительно попросить включить режим «Не беспокоить».</label>
+            <label><input type="radio" name="ft6" value="c" /> Снизить итоговую отметку всем студентам, чьи устройства подали звуковой сигнал.</label>
+            <label><input type="radio" name="ft6" value="d" /> Игнорировать ситуацию и продолжать объяснение, не меняя темпа урока.</label>
+          </div>
+          <div class="q-feedback" id="fb6"></div>
+        </div>
+
+        <div class="quiz-question">
+          <div class="q-head">
+            <strong>Вопрос 7</strong>
+            <span class="q-meta">Творческое задание · до 4 баллов</span>
+          </div>
+          <p>
+            Спроектируйте краткий сценарий мобильного микроурока с использованием ИИ по вашей предметной области (3–5 предложений): укажите тему и цель, мобильный сервис, роль ИИ и способ минимизации возможного риска.
+          </p>
+          <textarea id="ft7Text" class="text-input" rows="4" placeholder="Опишите ваш сценарий микроурока..."></textarea>
+          <div style="margin-top:10px;">
+            <strong style="font-size:0.9rem;">Самопроверка по критериям:</strong>
+            <div class="rubric-checks">
+              <label class="self-check"><input type="checkbox" class="ft7-cb" /> Тема и учебная цель (+1 б.)</label>
+              <label class="self-check"><input type="checkbox" class="ft7-cb" /> Мобильный сервис/формат (+1 б.)</label>
+              <label class="self-check"><input type="checkbox" class="ft7-cb" /> Функция ИИ (+1 б.)</label>
+              <label class="self-check"><input type="checkbox" class="ft7-cb" /> Снижение риска (+1 б.)</label>
+            </div>
+          </div>
+          <div class="q-feedback" id="fb7"></div>
+        </div>
+
+        <button type="submit" class="btn">Завершить тест и получить оценку</button>
+        <div id="finalTestResult" class="result-box"></div>
+      </form>
+    </section>
+  </main>
+
+  <button id="toTopBtn" class="btn">↑ Наверх</button>
+
+  <footer class="footer">
+    <div class="container footer-flex">
+      <span>© 2025 Веб-ресурс «Технология мобильного обучения»</span>
+      <a href="index.html" class="btn btn-outline">← На главную</a>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
